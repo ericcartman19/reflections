@@ -1,0 +1,12 @@
+0. What happens when you initialize a repository? Why do you need to do it?
+
+- de esta manera tendremos un hisotorial de nuestro fichero el cual se ha
+convertido en un repository
+
+1. How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+- El working directory es la lacacion fisica de los ficheros, staging area es una especia de panier o shopping car
+donde ponemos los ficheros que queremos commit, mientras que repo es la entidad logica donde almacenamos los 
+ficheros de los cuales queremos llevar track
+
+
