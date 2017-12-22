@@ -9,4 +9,30 @@ convertido en un repository
 donde ponemos los ficheros que queremos commit, mientras que repo es la entidad logica donde almacenamos los 
 ficheros de los cuales queremos llevar track
 
+2. How can you use the staging area to make sure you have one commit per logical change?
+
+- Not sure I understand the question
+
+3. What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+- Si queremos por ejemplo agregar una nueva funcionalidad experimental a nuestro proyecto, sin alterar el comportamiento
+de la aplicacion que ya hemos validado (production quality branch that never breaks and always works)
+
+4. How do the diagrams help you visualize the branch structure?
+
+Ayuda a visualizar la estrucura del proyecto, sus distintas branchs y reachability
+
+5. What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+- Se crea una branch unica que integra los cambios efectuados en ambas branchs, en cuestion manteniendo
+y permitiendo el accecso a cada uno de sus commits.
+
+7. What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+- Hacer los merge manualmente implica mas tiempo y esfuerzo. Mientras que los merges automaticos,
+no siempre garantizan la coherencia del codigo. Por eso los merge manuales son necesarios
+
+
+
+
 
