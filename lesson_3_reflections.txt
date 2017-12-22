@@ -3,3 +3,25 @@
 - cuando querramos compartir la informacion sea con otros colaborades del proyecto,
 o con cualquier otra persona a quien le pueda ser util
 
+1. Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+- Es posible que todos los cambios que se han pushed a GitHub no deseemos tenerlos en nuestro local
+
+3. Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Fork es una copia de un repository localizado en GitHub, del cual realizaremos una copia, a cual podremos modificar, sin modificar el
+codigo original. Por su parte un clone es una copia de un repository, sea de GitHub a nuestro local, o de local a local. Se puede
+decir que forking es un tipo de clone. Branch es una nueva rama, que hacemos del codigo establa o de produccion de nuestra aplicacion.
+
+4. What is the benefit of having a copy of the last known state of the remote stored locally?
+
+No estoy seguro de entender la pregunta. 
+
+5. How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Life seems better with Git
+
+7. When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+Permite validar los cambios realizados antes de incorporarlos a la branch de produccion
+
